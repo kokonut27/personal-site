@@ -1,0 +1,176 @@
+/*
+
+	Piero's Website - My Personal Website which is Open and Free for anyone to use.
+	Copyright (C) 2021 Piero Maddaleni
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Affero General Public License as
+	published by the Free Software Foundation, either version 3 of the
+	License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Affero General Public License for more details.
+
+	You should have received a copy of the GNU Affero General Public License
+	along with this program.  If not, see https://www.gnu.org/licenses/.
+
+*/
+
+body {
+	color: #fff;
+	background-color: #000;
+	font-family: 'Montserrat', sans-serif;
+	width: 90%;
+	max-width: 1200px;
+	justify-content: center;
+	margin: 0 auto;
+	line-height: 2;
+}
+
+.name {
+	font-size: 3.5em;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	justify-self: center;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	justify-self: center;
+	margin: 5px;
+}
+
+@media all and (max-device-width: 530px){
+    .name {
+        font-size: 10vw;
+    }
+}
+
+.highlight {
+	color: #468af0;
+}
+
+.subtitle {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.social-icon {
+	background-color: #131517;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	transition-duration: 0.1s;
+}
+
+.social-icon:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	filter: brightness(1.2);
+}
+
+.socials {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-self: center;
+	width: 80%;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project {
+	background-color: #131517;
+	max-width: 300px;
+	padding: 15px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.tech-and-tools {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.technologies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.name-icon {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	padding: 10px;
+	background-color: #131517;
+	border-radius: 10px;
+	transition-duration: 0.1s;
+}
+
+.name-icon:hover {
+	transform: scale(1.1);
+	filter: brightness(1.2);
+}
+
+.name-icon p {
+	align-self: center;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+h1 {
+	margin: 2px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	line-height: 1.5;
+}
+
+a {
+	color: #fff;
+	transition-duration: 0.4s;
+}
+
+a:hover {
+	color: #ddd;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+}
+
+footer > * {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}

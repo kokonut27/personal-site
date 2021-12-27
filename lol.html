@@ -1,8 +1,0 @@
-<html>
-	<head>
-		<meta http-equiv="refresh" content="0; URL=https://piemadd.com/senior/index.html" />
-	</head>
-	<body>
-		<p>Redirecting...</p>
-	</body>
-</html>

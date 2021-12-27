@@ -1,0 +1,20 @@
+{
+	"background_color": "none",
+	"description": "Piero LLC",
+	"dir": "ltr",
+	"display": "standalone",
+	"name": "Piero",
+	"orientation": "portrait-primary",
+	"scope": "/",
+	"short_name": "Piero",
+	"start_url": "/",
+	"theme_color": "none",
+	"categories": [],
+	"screenshots": [],
+	"icons": [{
+		"src": "/icon.png",
+		"type": "image/png",
+		"sizes": "512x512"
+		}],
+	"shortcuts": []
+}

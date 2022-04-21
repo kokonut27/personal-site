@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { 
+      "source": "/lol",
+      "destination": "https://piemadd.com/", 
+      "permanent": true
+    }
+  ]
+}
